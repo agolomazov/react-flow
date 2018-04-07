@@ -1,10 +1,12 @@
 {
   "extends": [
     "airbnb",
-    "prettier/react"
+    "prettier/react",
+    "eslint-config-with-prettier"
   ],
   "plugins": [
-    "prettier"
+    "prettier",
+    "flow"
   ],
   "parser": "babel-eslint",
   "env": {

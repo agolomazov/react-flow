@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.22.0",
+    "ramda": "^0.25.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.3.0",
+    "reselect": "^3.0.1",
+    "styled-components": "^3.2.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,16 +22,20 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
-    "lintfix": "eslint . --fix"
+    "lintfix": "eslint . --fix",
+    "typecheck": "flow check ./src"
   },
   "devDependencies": {
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-config-with-prettier": "^3.2.1",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.69.0",
     "prettier": "^1.11.1"
   }
 }
